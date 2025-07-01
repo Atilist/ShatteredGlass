@@ -2,6 +2,7 @@ package net.glasslauncher;
 
 import net.glasslauncher.screen.MenuScreen;
 import net.glasslauncher.screen.Screen;
+import net.glasslauncher.texture.TextureManager;
 import org.lwjgl.*;
 import org.lwjgl.glfw.*;
 import org.lwjgl.opengl.*;
@@ -11,7 +12,7 @@ import java.nio.*;
 
 import static org.lwjgl.glfw.Callbacks.*;
 import static org.lwjgl.glfw.GLFW.*;
-import static org.lwjgl.opengl.GL11.*;
+import static org.lwjgl.opengl.GL41.*;
 import static org.lwjgl.system.MemoryStack.*;
 import static org.lwjgl.system.MemoryUtil.*;
 
